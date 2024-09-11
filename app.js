@@ -8,7 +8,9 @@ const cors = require('cors');
 
 const app = express()
 app.use(express.json());
-app.use(cors())
+app.use(cors({
+    origin: 'https://novedades-facturacion.vercel.app', // Reemplaza con la URL de tu frontend
+  }));
 
 app.use('/novedades', router)
 
