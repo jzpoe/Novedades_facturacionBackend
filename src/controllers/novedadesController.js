@@ -1,4 +1,4 @@
-const novedadesModel = require("../model/model");
+import novedadesModel from "../model/model.js";
 
 
 const create = {
@@ -35,4 +35,4 @@ const create = {
     
   };
   
-  module.exports = create;
+  export default create;

@@ -1,6 +1,6 @@
-    const express = require('express');
-    const novedadesController = require ('../controllers/novedadesController');
-    const router = express.Router()
+    import express from 'express';
+    import novedadesController from '../controllers/novedadesController.js';
+    const router = express.Router();
 
 
     router.post('/', novedadesController.create);
@@ -9,4 +9,4 @@
     // router.put('/:id', novedadesController);
     // router.delete('/:id', novedadesController);
 
-    module.exports= router;
+    export default router;

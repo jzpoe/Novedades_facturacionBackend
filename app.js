@@ -1,9 +1,9 @@
 
-const express = require('express');
-const dotenv = require ('dotenv/config');
-const router = require ('./src/routes/novedades');  // Asegúrate de incluir la extensión .js
-const mongoose = require ('./src/db/db');  // También asegúrate de incluir .js aquí si es necesario
-const cors = require('cors');
+import express from 'express';
+import dotenv from 'dotenv/config';
+import router from './src/routes/novedades.js';  // Asegúrate de incluir la extensión .js
+import mongoose from './src/db/db.js';  // También asegúrate de incluir .js aquí si es necesario
+import cors from 'cors';
 
 
 const app = express()

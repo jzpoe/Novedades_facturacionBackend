@@ -1,5 +1,5 @@
-const  mongoose = require ('mongoose')
-const dotenv = require ('dotenv/config');
+import mongoose from 'mongoose'
+import dotenv from 'dotenv/config';
 
 
 // Your MongoDB connection string
@@ -10,4 +10,4 @@ mongoose.connect(process.env.MONGODB_URI,)
 
 
 
-module.exports= mongoose;
+export default mongoose;
