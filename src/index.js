@@ -1,8 +1,8 @@
 
 import express from 'express';
 import dotenv from 'dotenv/config';
-import router from './src/routes/novedades.js';  // Asegúrate de incluir la extensión .js
-import mongoose from './src/db/db.js';  // También asegúrate de incluir .js aquí si es necesario
+import router from './routes/novedades.js';  // Asegúrate de incluir la extensión .js
+import mongoose from './db/db.js';  // También asegúrate de incluir .js aquí si es necesario
 import cors from 'cors';
 
 
